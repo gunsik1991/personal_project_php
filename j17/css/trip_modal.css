@@ -1,0 +1,41 @@
+h2{
+    text-align: center;
+    font-size:40px;
+}
+#trip_picture{
+    width:1600px;
+    margin:0px auto;
+}
+
+a{
+    color:#333;
+    text-decoration: none;
+}
+#trip_picture>ul>li{
+    float:left;
+    width: 500px;
+    height:330px;
+    position: relative;
+    overflow: hidden;
+}
+#trip_picture>ul>li img{
+    width:100%;
+    padding:10px;
+    margin-top: 1px;
+}
+
+#trip_picture li:hover p{
+    bottom:0px;
+}
+
+#trip_picture p{
+    background-color:rgba(0,0,0,0.8);
+    color:#fff;
+    line-height:30px;
+    position: absolute;
+    width:100%;
+    bottom:-40px;
+    text-indent: 30px;
+    transition: 0.5s;
+    left:2%;
+}
