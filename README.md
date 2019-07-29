@@ -4,6 +4,8 @@ PHP버전은 7.1.30버전 입니다. mysql엔진은 Myisam을 사용했고 XAMPP
 
 board_result 상세보기 
 
+database_manager.php 데이터베이스 연결 처리
+
 create 새글 작성 및 수정
 
 create_check 새글 작성 및 게시글 올리기 처리
