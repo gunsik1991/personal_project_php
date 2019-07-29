@@ -294,7 +294,7 @@
                     </ul>
                 </li>
                 <li><a href="notice.php" title="">공지사항</a></li>
-               <li> <a><?  
+               <li> <a><?php  
         echo "(".$_SESSION['id'].")님 반갑습니다."?></a></li>
                 <li><a href="logout.php">로그아웃</a></li>
             </ul>
@@ -390,12 +390,10 @@
               </div>
               </form>
                     ";
-                ?>
-               
-            <?php }else{
-                    echo "<script>alert('문제발생!!');</script>";
-                }
-        }?> 
+                    
+             }
+               ?>
+            <?php }?> 
                 
                  
               

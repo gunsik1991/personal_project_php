@@ -288,7 +288,7 @@
  $page_no=$_GET['no'];   
  $review_id=$_GET['id'];
  $review_title=$_GET['review_title'];
- $review_content=$_GET['review_content'];
+ $review_content=($_GET['review_content']);
     $sql="select review_id,review_title,review_content from reviewboard where no='$page_no';";
  
     
