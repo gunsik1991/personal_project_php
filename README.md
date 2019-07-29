@@ -1,6 +1,6 @@
 # personal_project_php- 
 
-PHP버전은 7.0.1버전 입니다. mysql은 Myisam을 사용했고 AutoSet을 사용하였습니다.
+PHP버전은 7.1.30버전 입니다. mysql엔진은 Myisam을 사용했고 XAMPP을 사용하였습니다.
 
 board_result 상세보기 
 
