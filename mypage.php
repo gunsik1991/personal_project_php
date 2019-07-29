@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -416,7 +416,7 @@
                            
                             <tr>
                                 <th>이름</th>
-                                <td><input type="text" name="name" id="cus_name" value="<?php echo $row[name]?>"></td>
+                                <td><input type="text" name="name" id="cus_name" value="<?php echo $row[name]; ?>"></td>
                                   <select name="foreign" id="selection">
                                         <option value="내국인">내국인</option>
                                         <option value="외국인" id="fore">외국인</option>
@@ -424,19 +424,19 @@
                             </tr>
                             <tr>
                                 <th>아이디</th>
-                                <td><input type="text" name="id" id="id" value="<?php echo $row[id]?>" readonly></td>
+                                <td><input type="text" name="id" id="id" value="<?php echo $row[id]; ?>" readonly></td>
                             </tr>
                             <tr>
                                 <th>생년월일</th>
                                 <td>
-                               <input type="text" id="birthday" name="birthday" value="<?php echo $row[birth]?>" readonly>
+                               <input type="text" id="birthday" name="birthday" value="<?php echo $row[birth]; ?>" readonly>
                                 </td>
                                
                             </tr>
                             <tr>
                                 <th>이메일</th>
 
-                                <td id="content"> <input type="text" id="emails" name="email_content" value="<?php echo $row[email]?>" maxlength="10">&nbsp;&nbsp;&nbsp;@
+                                <td id="content"> <input type="text" id="emails" name="email_content" value="<?php echo $row[email]; ?>" maxlength="10">&nbsp;&nbsp;&nbsp;@
                                     <select name="email" id="email_selection">
                                         <option value="naver.com">naver.com</option>
                                         <option value="hanmail.com">hanmail.com</option>
